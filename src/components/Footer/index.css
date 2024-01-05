@@ -1,0 +1,45 @@
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .social-media-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .linkedin-button,
+  .twitter-button,
+  .github-button {
+    background-color: #0077b5; /* LinkedIn color */
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .linkedin-button:hover {
+    background-color: #005082;
+  }
+  
+  .twitter-button:hover {
+    background-color: #1da1f2;
+  }
+  
+  .github-button:hover {
+    background-color: #181717;
+  }
+  
+  p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
